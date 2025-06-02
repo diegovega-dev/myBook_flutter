@@ -1,0 +1,32 @@
+name: proyecto_final
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: any
+  shared_preferences: any
+  sqflite_common_ffi: any
+  intl: any
+  flutter_localizations:
+    sdk: flutter
+  path: any
+  window_size: ^0.1.0
+  sqflite: ^2.4.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  mockito: ^5.0.17
+  build_runner: ^2.3.3
+  
+flutter:
+  uses-material-design: true
+  generate: true
